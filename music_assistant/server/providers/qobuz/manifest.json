@@ -1,0 +1,10 @@
+{
+  "type": "music",
+  "domain": "qobuz",
+  "name": "Qobuz",
+  "description": "Qobuz support for Music Assistant: Lossless (and hi-res) Music provider.",
+  "codeowners": ["@music-assistant"],
+  "requirements": [],
+  "documentation": "https://music-assistant.io/music-providers/qobuz/",
+  "multi_instance": true
+}

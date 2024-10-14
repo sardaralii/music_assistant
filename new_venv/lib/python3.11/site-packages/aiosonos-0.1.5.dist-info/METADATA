@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: aiosonos
+Version: 0.1.5
+Summary: Async python library to communicate with Sonos devices.
+Author-email: AIOSonos <m.vanderveldt@users.noreply.github.com>
+License: Apache-2.0
+Platform: any
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp >=3.8.4
+Requires-Dist: orjson >=3.8.9
+Provides-Extra: speedups
+Requires-Dist: faust-cchardet >=2.1.18 ; extra == 'speedups'
+Requires-Dist: aiodns >=3.0.0 ; extra == 'speedups'
+Requires-Dist: Brotli >=1.0.9 ; extra == 'speedups'
+Provides-Extra: test
+Requires-Dist: codespell ==2.3.0 ; extra == 'test'
+Requires-Dist: mypy ==1.8.0 ; extra == 'test'
+Requires-Dist: pre-commit ==3.6.1 ; extra == 'test'
+Requires-Dist: pre-commit-hooks ==4.5.0 ; extra == 'test'
+Requires-Dist: pytest ==8.3.2 ; extra == 'test'
+Requires-Dist: pytest-aiohttp ==1.0.5 ; extra == 'test'
+Requires-Dist: pytest-cov ==4.1.0 ; extra == 'test'
+Requires-Dist: ruff ==0.2.1 ; extra == 'test'
+
+# aiosonos
+Async python library to communicate with Sonos devices

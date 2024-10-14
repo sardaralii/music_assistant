@@ -1,0 +1,12 @@
+{
+  "type": "plugin",
+  "domain": "hass",
+  "name": "Home Assistant",
+  "description": "Connect Music Assistant to Home Assistant.",
+  "codeowners": ["@music-assistant"],
+  "documentation": "",
+  "multi_instance": false,
+  "builtin": false,
+  "icon": "md:webhook",
+  "requirements": ["hass-client==1.2.0"]
+}

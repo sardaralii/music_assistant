@@ -1,0 +1,12 @@
+{
+  "type": "metadata",
+  "domain": "theaudiodb",
+  "name": "The Audio DB",
+  "description": "TheAudioDB is a community Database of audio artwork and metadata with a JSON API.",
+  "codeowners": ["@music-assistant"],
+  "requirements": [],
+  "documentation": "",
+  "multi_instance": false,
+  "builtin": true,
+  "icon": "folder-information"
+}

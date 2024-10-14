@@ -1,0 +1,10 @@
+{
+  "type": "music",
+  "domain": "tunein",
+  "name": "Tune-In Radio",
+  "description": "Play your favorite radio stations from Tune-In in Music Assistant.",
+  "codeowners": ["@music-assistant"],
+  "requirements": [],
+  "documentation": "https://music-assistant.io/music-providers/tunein/",
+  "multi_instance": true
+}

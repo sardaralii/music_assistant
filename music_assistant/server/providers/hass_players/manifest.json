@@ -1,0 +1,13 @@
+{
+  "type": "player",
+  "domain": "hass_players",
+  "name": "Home Assistant MediaPlayers",
+  "description": "Use (supported) Home Assistant media players as players in Music Assistant.",
+  "codeowners": ["@music-assistant"],
+  "documentation": "https://music-assistant.io/player-support/ha/",
+  "multi_instance": false,
+  "builtin": false,
+  "icon": "md:webhook",
+  "depends_on": "hass",
+  "requirements": []
+}
